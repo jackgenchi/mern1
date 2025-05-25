@@ -1,0 +1,40 @@
+// const element = (
+        //     <ul style={{'color':'blue', 'fontSize': '24px'}}>
+        //         <li>Sally Smith</li>
+        //         <li>Mark Martin</li>
+        //         <li>Holly Unlikely</li>
+        //     </ul>
+        // )
+        //FIRST LEVEL CREATE ELEMENT
+        // ReactDOM.render( // render virtual dom into real dom
+        //     React.createElement( // dynamically creating an element.
+        //         'div', //create div element and nest it inside
+        //         {title: 'Outer div'}, //title attribute on the div
+        //         'Hello World!' //dynamic string rendered into virtual DOM
+        //     ),
+        //     document.getElementById('content')//where we want to render
+        // )
+
+        // VARIABLE CREATE ELEMENT
+        // const element = React.createElement(
+        //     'div', 
+        //     {title: 'Outer div'},
+        //     'Hello World!'
+        // )
+        // ReactDOM.render(element, document.getElementById('content'))   
+        
+        // NESTED VARIABLE CREATE ELEMENT
+        // const element = React.createElement(
+        //     'div', 
+        //     {title: 'Outer div'},
+        //     React.createElement('h1', null, 'Hello World!')
+        // )
+
+        // bulky 
+        // const ul = React.createElement(
+        //     'ul', 
+        //     { style: {"color": "blue", "font-size": "24px" } },
+        //     React.createElement('li', null, 'Sally Smith'),
+        //     React.createElement('li', null, 'Mark Martin'),
+        //     React.createElement('li', null, 'Holly Unlikely')
+        // )
